@@ -1,0 +1,12 @@
+name: research_agent
+
+description: Research agent that generates detailed notes from a topic.
+
+input:
+  topic:
+    type: string
+    required: true
+
+output:
+  research_content:
+    type: string

@@ -1,0 +1,12 @@
+name: quiz_generator_agent
+
+description: Generates multiple-choice questions from summarized content.
+
+input:
+  summary:
+    type: string
+    required: true
+
+output:
+  quiz:
+    type: string

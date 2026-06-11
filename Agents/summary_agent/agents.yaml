@@ -1,0 +1,12 @@
+name: summarizer_agent
+
+description: Summarizes research content into concise notes.
+
+input:
+  research_content:
+    type: string
+    required: true
+
+output:
+  summary:
+    type: string
